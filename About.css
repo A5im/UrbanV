@@ -1,19 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
-
-
-
-
-
-
-
 h3 {
-
-
     color: white;
     font-size: 50px;
   top: 100px;
 }
+
+
 
 body { 
 
@@ -22,6 +15,8 @@ text-align: center;
 background-image: url("https://drive.google.com/uc?export=view&id=1uNJ8c6w54wDHDpqtz7mnNAmJNejLwC68");
 
 background-size: cover;
+
+
 
 }
 
