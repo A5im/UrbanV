@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+h1 {
+
+
+    color: white;
+    font-size: 50px;
+  
+}
+
+body { 
+
+text-align: center;
+
+background-image: url("https://drive.google.com/uc?export=view&id=1uNJ8c6w54wDHDpqtz7mnNAmJNejLwC68");
+
+background-size: cover;
+
+
+m;
+}
+p {
+
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+    font-size: 23px;
+
+}
