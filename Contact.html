@@ -6,13 +6,102 @@
 
 <link rel="stylesheet" type="text/css" href="Contact.css">
 
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fdd000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  right: 00px;
+  left: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+
+
+
+li a {
+  display: block;
+  padding: 50px;
+}
+
+li a {
+  display: block;
+  color:#f2efe2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+li {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<p> this is contact </p>
+    <ul>
+        <div class="menu">
+        <li><a href="UV.html"target="_blank">Home</a></li>
+        <li><a href="About.html"target="_blank">About</a></li>
+        <li><a href="Photos.html"target="_blank">Photos</a></li>
+        <li><a href="Contact.html"target="_blank">Contact</a></li>
+        <li><a href="Shop.html"target="_blank">Shop</a></li>
+        </ul>
 
 
+        <div>
+            <p class="on">.</p>
+            <p class="on">.</p>
+            <p class="on">.</p>
+        
+            </div>
+
+            <h1 style="color: #fdd000 ;">Contact Form</h1>
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Hong Kong</option>
+                <option value="canada">China</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
 
 </body>
 

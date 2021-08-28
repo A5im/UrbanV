@@ -1,0 +1,73 @@
+.joke {
+    text-align: center;
+    font-size: 70px;
+    color: #FFD523;
+font-weight: bold;
+}
+
+
+
+h4 {
+
+    color: turquoise;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+
+    background-image: url("https://i.pinimg.com/564x/84/be/a3/84bea320888078275ff0e90bf3e12edd.jpg");
+    background-repeat: no-repeat;
+background-size: 1400px 900px;
+
+}
+
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+  z-index: 1;
+
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+h4 {
+    color: #FFD532;
+    font-size: 30px;
+    font-family: Verdana, fantasy, Tahoma, sans-serif;
+
+}
+
+
+
